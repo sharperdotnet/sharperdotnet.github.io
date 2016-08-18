@@ -9,9 +9,14 @@
 	<script src="lib/jquery/jquery-3.1.0.min.js"></script>
 	<script src="lib/bs/dist/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
-	
+	<script> 
+    $(function(){
+      $("#includedContent").load("text/a.html"); 
+    });
+    </script> 
 </head>
 
 <body>
+	<div id="includedContent"></div>
 </body>
 </html>
